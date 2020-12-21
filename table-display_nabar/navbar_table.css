@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    background-color: #333;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    
+}
+
+a {
+    text-decoration: none;
+}
+/* Layout */
+
+.navbar {
+    background-color: #222;
+    font-size: 20px;
+
+    width: 100%;
+    display: table;
+}
+
+
+.navbar .row {
+    display: table-row;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar ul {
+    /* border: 2px solid olivedrab; */
+    display: table-cell;
+    vertical-align: middle;
+
+}
+
+.navbar li {
+    display: table-cell;
+    padding: 20px 10px;
+    vertical-align: middle;
+}
+
+.navbar ul.branding {
+ padding-right: 50px;
+ padding-left: 50px;
+    
+}
+
+.navbar ul.client {
+    text-align: right;
+   
+}
+
+.navbar ul.branding li:first-child {
+    font-size: 40px;
+}
+
